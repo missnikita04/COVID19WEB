@@ -1,26 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>COVID-19</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
- 
-<link rel="stylesheet" href="style.css">
-  <body>
-      <header>
-          <div class="head-container">
-              <nav class="navbar col-4 sm-2">
-                  <ul>
-                      <li>home</li>
-                      <li>about</li>
-                      <li>expert</li>
-                      <li>contact</li>
-                      <li>blog</li>
-                   
-                  </ul>
-              </nav>
-          </div>
-      </header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> COVID19-WEBSITE</title>
+   
+   
+   
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,100;1,600&family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,100;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/6bc11affb3.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+
+<body>
+<section class="header">
+<nav>
+    <a href="index.html"><H1>COVID-19</H1></a>
+<div class="nav-links" id="navlinks">
+    <i class="fas fa-times" onclick="hideMenu()"></i><!--onclick javascript part -->
+    <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">EXPERTS</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <li><a href="#">BLOGS</a></li>
+    </ul>
+</div>
+ <i class="fas fa-bars"  onclick="showMenu()"></i><!--onclick javascript part -->
+</nav>
+<div class="text-box">
+    
+    <h1>PROTECT YOURSELF FROM COVID-19</h1>
+    <P>STAY HOME STAY SAFE</P>
+    <a href="" class="hero-btn">Learn More</a>
+    
+</div>
+
+</section>
+
+
+<!-- javascript for toggle menu -->
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right="0";
+    }
+    function hideMenu(){
+        navlinks.style.right ="-200px";
+    }
+</script>
+
+
+
+
+    
 </body>
 </html>
