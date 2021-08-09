@@ -1,67 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> COVID19-WEBSITE</title>
-   
-   
-   
+
+
+
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,100;1,600&family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,100;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,100;1,600&family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,100;1,700;1,900&display=swap"
+        rel="stylesheet">
 
 
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/6bc11affb3.js" crossorigin="anonymous"></script>
-
+    <script src="https://kit.fontawesome.com/3fc589259b.js" crossorigin="anonymous"></script>
 
 </head>
 
 
 <body>
-<section class="header">
-<nav>
-    <a href="index.html"><H1>COVID-19</H1></a>
-<div class="nav-links" id="navlinks">
-    <i class="fas fa-times" onclick="hideMenu()"></i><!--onclick javascript part -->
-    <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">EXPERTS</a></li>
-        <li><a href="#">CONTACT</a></li>
-        <li><a href="#">BLOGS</a></li>
-    </ul>
+    <section class="header">
+        <nav>
+            <a href="index.html">
+                <H1>COVID-19</H1>
+            </a>
+            <div class="nav-links" id="navlinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <!--onclick javascript part -->
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">EXPERTS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">BLOGS</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+            <!--onclick javascript part -->
+        </nav>
+        <div class="text-box">
+
+            <h1>PROTECT YOURSELF FROM COVID-19</h1>
+            <P>STAY HOME STAY SAFE</P>
+            <a href="" class="hero-btn">Learn More</a>
+
+        </div>
+
+    </section>
+    <!-- about -->
+    <section class="About">
+        <div class="row">
+            <div class="col">
+                <h1>What Is Novel Corona Virus?</h1>
+                <p>A “novel” coronavirus (nCoV) is a new strain that has not been previously identified in humans.
+                    <br>COVID-19’s animal-to-person spread was suspected after the initial outbreak among people who had
+                    a link to a large seafood and live animal market.
+                </p>
+            </div>
+        </div>
+        <div class="logo">
+            <div class="col">
+                <img src="asset/INFOlogo.png" alt="covid-pic">
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- prevent -->
+    <section class="prevent">
+        <h1>HOW TO <span>PREVENT</span>?</h1>
+
+
+
+        <div class="row">
+            <div class="prevent-col">
+                <img src="asset/wear2mask.jfif" alt="mask">
+                <h3>Wear A Mask</h3>
+                <p>Wear a mask if they must be around other people.</p>
+            </div>
+
+            <div class="prevent-col">
+                <img src="asset/hand-wash2.jfif" alt="hand-wash">
+                <h3>Wash your Hand</h3>
+                <p>Wash your hand regularly with soap and water for at least 20 seconds.</p>
+            </div>
+
+            <div class="prevent-col">
+                <img src="asset/consult2.jfif" alt="consult">
+                <h3>Consult</h3>
+                <p>Seek medical care early if you or your child has a fever cough or difficulty breathing.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="prevent-col">
+                <img src="asset/touching.jfif" alt="avoid touching">
+                <h3>Avoid Touching</h3>
+                <p>Avoid crowds ans poorly ventilated space,</p>
+            </div>
+            <div class="prevent-col">
+                <img src="asset/avoidcontact.jfif" alt="avoid contact">
+                <h3>Avoid contact</h3>
+                <p>Avoid close contact with anyone who has cold or flu-like symptom.</p>
+            </div>
+
+            <div class="prevent-col">
+                <img src="asset/clean-surface.png" alt="cleaning">
+                <h3>Clean everyday</h3>
+                <p>Clean and disinfect frequently touched surface.</p>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <section class="Experts">
+        <h1>MEET OUR <span>EXPERTS</span>?</h1>
+        <div class="row">
+
+
+            <div class="experts-col">
+                <img src="asset/virus-expert3.jfif" alt="first expert">
+
+                <h1>John Deo</h1>
+                <p>Virus Expert</p>
+            </div>
+
+            <div class="experts-col">
+                <img src="asset/virus-expert2.jfif" alt="second-expert">
+                <h1>John Deo</h1>
+                <p>Virus Expert</p>
+            </div>
+
+            <div class="experts-col">
+                <img src="asset/virus-expert3.jfif" alt="third expert">
+                <h1>John Deo</h1>
+                <p>Virus Expert</p>
+            </div>
+        </div>
+
+
+    </section>
+    <hr>
+
+
+
+    <!-- contact -->
+    <section class="contact">
+        <h1><span>contact</span> for assistance</h1>
+
+        <form action="">
+            <div class="contact-section">
+                <div class="form">
+                    <label for="fname">first name:</label><br>
+                    <input type="text" name="fname" placeholder="first name"><br><br>
+                    <label for="lname">last name</label><br>
+                    <input type="text" name="lname" id="lname" placeholder="last name"><br><br>
+                    <label for="adress">address:</label><br>
+                    <input type="text" name="addresss" placeholder="adreess"><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="email" placeholder="n@sample.com"><br><br>
+                    <label for="password">password:</label><br>
+                    <input type="password" name="password" id="password" placeholder="S@123"><br><br>
+                    <label for="messsage">message:</label><br>
+                    <textarea name="message" id="message" cols="70" rows="10"
+                        placeholder="type your message"></textarea><br><br>
+                 
+                    <div class="select-dropdown">
+                        <label for="state">choose your state:</label>
+
+                        <select name="state" id="state">
+                            <option value="not-chosen">choose country</option>
+                            <option value="rajasthan">Rajasthan</option>
+                            <option value="delhi">Delhi</option>
+                            <option value="up">up</option>
+                            <option value="mp">mp</option>
+                            <option value="mumbai">mumbai</option>
+                            <option value="gujrat">Gujrat</option>
+
+
+
+
+                        </select>
+                    </div><br>
+
+
+                    <input type="submit" name="submit" id="complete"><br>
+
+                </div>
+
+        </form>
+
+
+        </div>
+
+
+
+
+    </section>
+
+    <!-- blogs -->
+    <section class="blogs">
+        <h1>Our Latest <span>Blogs</span></h1>
+        <div class="row">
+            <div class="blog-col">
+                <img src="asset/1blog.jfif" alt="covid">
+                <h1>World is fight against <br><span>Covid-19</span> </h1>
+                
+            </div>
+            <div class="blog-col">
+                <img src="asset/2blog.jfif" alt="COVId">
+                <h1>World is fight against <br> <span>Covid-19</span></h1>
+                
+            </div>
+            <div class="blog-col">
+                <img src="asset/3blog.jfif" alt="covid">
+                <h1>World is fight against <br><span>Covid-19</span></h1>
+            
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- footer -->
+    <section>
+        <div class="footer">
+            <h4>About Us</h4>
+             <p>mndnfnfed c  cjd ddjdcd ddcddjdc hn <br> uin ff  jfn jfif</p>
+       <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-telegram"></i>
 </div>
- <i class="fas fa-bars"  onclick="showMenu()"></i><!--onclick javascript part -->
-</nav>
-<div class="text-box">
-    
-    <h1>PROTECT YOURSELF FROM COVID-19</h1>
-    <P>STAY HOME STAY SAFE</P>
-    <a href="" class="hero-btn">Learn More</a>
-    
-</div>
-
-</section>
-
-
-<!-- javascript for toggle menu -->
-<script>
-    var navlinks = document.getElementById("navlinks");
-    function showMenu(){
-        navlinks.style.right="0";
-    }
-    function hideMenu(){
-        navlinks.style.right ="-200px";
-    }
-</script>
+      <p>copyright@2021</p>
+        
+        </div>
+    </section>
 
 
 
 
-    
+
+
+
+
+
+
+    <!-- javascript for toggle menu -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+
+
 </body>
+
 </html>
