@@ -99,7 +99,7 @@ nav .fas {
     display: none;
 }
 
-@media(max-width:700px) {
+@media(max-width:1024px) {
     .text-box h1 {
         font-size: 20px;
     }
@@ -212,7 +212,7 @@ p {
     border: 1px solid black;
 }
 
-@media(max-width:700px) {
+@media(max-width:1024px) {
     .row {
         flex-direction: column;
     }
@@ -382,7 +382,7 @@ span {
     border: 1px solid white;
 }
 
-@media(max-width:700px) {
+@media(max-width:1024px) {
     .about-row {
         display: table-cell;
     }
