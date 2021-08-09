@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> COVID19-WEBSITE</title>
+
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,100;1,600&family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,100;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/6bc11affb3.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3fc589259b.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">
+                <H1>COVID-19</H1>
+            </a>
+            <div class="nav-links" id="navlinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <!--onclick javascript part -->
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Prevent.html">PREVENT</a></li>
+                    <li><a href="experts.html">EXPERTS</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    <li><a href="Blogs.html">BLOGS</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+            <!--onclick javascript part -->
+        </nav>
+        <h1>OUR LATEST BLOG</h1>
+
+    </section>
+    <!-- blogs -->
+    <section class="blogs">
+        <h1>Our Latest <span>Blogs</span></h1>
+        <div class="row">
+            <div class="blog-col">
+                <img src="asset/1blog.jfif" alt="covid">
+                <h1>World is fight against <br><span>Covid-19</span> </h1>
+
+            </div>
+            <div class="blog-col">
+                <img src="asset/2blog.jfif" alt="COVId">
+                <h1>World is fight against <br> <span>Covid-19</span></h1>
+
+            </div>
+            <div class="blog-col">
+                <img src="asset/3blog.jfif" alt="covid">
+                <h1>World is fight against <br><span>Covid-19</span></h1>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <section>
+        <div class="footer">
+            <h4>About Us</h4>
+            <p>mndnfnfed c cjd ddjdcd ddcddjdc hn <br> uin ff jfn jfif</p>
+            <div class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-telegram"></i>
+            </div>
+            <p>copyright@2021</p>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- javascript for toggle menu -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+
+
+</body>
+
+</html>
